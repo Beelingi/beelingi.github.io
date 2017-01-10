@@ -372,3 +372,7 @@ body {
 
 .bs-callout-info h4 {
   color: #1b809e; }
+
+.thumbnail {
+  padding: 0px;
+  border-radius: 0px; }
