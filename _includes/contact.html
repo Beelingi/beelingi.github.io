@@ -1,57 +1,73 @@
-<section class="big-padding" id="contact">
+<section class="big-padding bg-primary" id="contact">
     <div class="container">
         <div class="row">
 
-            <form action="https://getsimpleform.com/messages?form_api_token=f3b5d7ad6276d0577ba7e8b5bb2211d1" method="post">                <input type='hidden' name='redirect_to' value='http://minhajuddin.com/thank-you' />
-                <input type='hidden' name='redirect_to' value='http://vicom-agency.de' />
-                <div class="form-inline">
-
-                    <label for="InputVorName">Vorname</label>
-                    <input type="text" class="form-control" Name="Vorname" id="InputVorName" placeholder="Vorname" required>
-
-                    <label for="InputNachName">Nachname</label>
-                    <input type="text" class="form-control" Name="Nachname" id="InputNachName" placeholder="Nachname" required>
-
-                    <label for="InputEmail1">eMail</label>
-                    <input type="email" class="form-control" id="InputEmail1" Name="Email" placeholder="Email" required>
-
-                </div>
-                <div class="form-group">
-                    <label for="message">message</label>
-                    <textarea class="form-control" id="message" Name="message" placeholder="Nachricht" rows='8' required></textarea>
-
-                </div>
-
-
-                <button type="submit" value='Submit' class="btn btn-primary">Versenden</button>
-
-
-            </form>
-
-
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="primary">
-                <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we
-                    will get back to you as soon as possible!</p>
-            </div>
-            <div class="col-lg-2 col-lg-offset-2 text-center">
-                <a href="http://www.facebook.com/beelingi" target="_blank">
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-            </div>
             <div class="col-lg-2 col-lg-offset-1 text-center">
                 <a href="mailto:{{ site.email }}">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p>{{ site.email }}</p>
                 </a>
-                <p>schreibt an: Sprachspass + ät + beelingi + punkt + me</p>
             </div>
-            <div class="col-lg-2 col-lg-offset-1 text-center">
-                <a href="https://github.com/{{ site.github_username }}">
-                    <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>{{ site.github_username }}</p>
+
+            <form action="" Name="myform"  method="post">
+                <input type='hidden' name='redirect_to' value='http://vicom-agency.de' />
+                <div class="form-group">
+
+                    <label for="InputVorName">Vorname</label>
+                    <input type="text" class="form-control" Name="Vorname" id="InputVorName" placeholder="Vorname" >
+                    </div>
+                <div class="form-group">
+                    <label for="InputNachName">Nachname</label>
+                    <input type="text" class="form-control" Name="Nachname" id="InputNachName" placeholder="Nachname" >
+                </div>
+
+                <div class="form-group">
+                    <label for="InputEmail1">eMail</label>
+                    <input type="email" class="form-control" id="InputEmail1" Name="Email" placeholder="Email" >
+                 </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="wiederholen" Name="wiederholen" placeholder="wiederholen" >
+                </div>
+                <div class="form-group">
+                    <label for="message">message</label>
+                    <textarea class="form-control" id="message" Name="message" placeholder="Nachricht" rows='8' ></textarea>
+                </div>
+
+
+                <button type="submit" value='Submit' class="btn btn-default">Versenden</button>
+
+
+            </form>
+            <script language="JavaScript" type="text/javascript"
+            xml:space="preserve">//<![CDATA[
+            //You should create the validator only after the definition of the HTML form
+            var frmvalidator  = new Validator("myform");
+
+            frmvalidator.EnableMsgsTogether();
+            frmvalidator.addValidation("Vorname","req","Vornamen fehlt");
+            frmvalidator.addValidation("Vorname","maxlen=20",	"Max length for FirstName is 20");
+            frmvalidator.addValidation("Vorname","alpha","Alphabetic chars only");
+
+            frmvalidator.addValidation("Nachname","req","Nachnamen fehlt");
+            frmvalidator.addValidation("Nachname","maxlen=20","Max length is 20");
+
+            frmvalidator.addValidation("Email","maxlen=50");
+            frmvalidator.addValidation("Email","req");
+            frmvalidator.addValidation("Email","email");
+            frmvalidator.addValidation("Email","req", "eMail-Adresse wiederholen");
+            frmvalidator.addValidation("wiederholen","eqelmnt=Email","Die beiden eMail-Adressen sind unterschiedlich");
+
+            frmvalidator.addValidation("message","req","Nachricht nicht vergessen :)");
+
+
+            //]]></script>
+
+            <div class="col-lg-2 col-lg-offset-2 text-center">
+                <a href="http://www.facebook.com/beelingi" target="_blank">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
                 </a>
+            </div>
+
             </div>
         </div>
 

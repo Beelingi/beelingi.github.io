@@ -376,3 +376,18 @@ body {
 .thumbnail {
   padding: 0px;
   border-radius: 0px; }
+
+.intro {
+  width: 79%; }
+
+.intro h2 a {
+  color: yellow; }
+
+.white {
+  color: white; }
+
+.reisetermine a {
+  color: whitesmoke; }
+
+.reisetermine {
+  border-left: 1px solid whitesmoke; }
