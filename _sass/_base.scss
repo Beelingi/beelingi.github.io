@@ -9,8 +9,7 @@ body {
 }
 
 hr {
-    border-color: $theme-primary;
-    border-width: 3px;
+    border: 3px solid $theme-primary;
     max-width: 50px;
 }
 
@@ -381,7 +380,7 @@ body {
     color: #ffffff;
     }
 
-#unterricht, {
+#unterricht {
     .entry-header {
         background-position: center right;
         }
@@ -448,8 +447,8 @@ body {
     }
 
 .thumbnail {
-    padding: 0px;
-    border-radius: 0px;
+    padding: 0;
+    border-radius: 0;
     }
 
 .intro h2 a {

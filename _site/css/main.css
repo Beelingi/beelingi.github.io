@@ -7,8 +7,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
-  border-color: #0096DB;
-  border-width: 3px;
+  border: 3px solid #0096DB;
   max-width: 50px; }
 
 hr.light {
@@ -374,8 +373,8 @@ body {
   color: #1b809e; }
 
 .thumbnail {
-  padding: 0px;
-  border-radius: 0px; }
+  padding: 0;
+  border-radius: 0; }
 
 .intro h2 a {
   color: yellow; }
