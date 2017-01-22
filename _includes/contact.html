@@ -1,7 +1,17 @@
 <section class="big-padding bg-primary" id="contact">
     <div class="container">
         <div class="row">
-
+            <div class="col-lg-2 col-lg-offset-1 text-center">
+                <a href="mailto:{{ site.email }}">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.email }}</p>
+                </a>
+                <p>Beelingi.me - Sprache, Spaß und me</p>
+                <p>Sprachcamps für Schüler</p>
+                <p>Manteuffelstraße 21</p>
+                <p>22587 Hamburg</p>
+                <p>t.+49 (0)40 55009913 </p>
+            </div>
     <div class="col-sm-12">
             <form action="https://getsimpleform.com/messages?form_api_token=f3b5d7ad6276d0577ba7e8b5bb2211d1" Name="myform"  method="post">
                 <input type='hidden' name='redirect_to' value='http://beelingi.me' />
@@ -13,6 +23,11 @@
                 <div class="form-group">
                     <label for="InputNachName">Nachname</label>
                     <input type="text" class="form-control" Name="Nachname" id="InputNachName" placeholder="Nachname" >
+                </div>
+
+                <div class="form-group">
+                    <label for="InputEmail1">Telefon</label>
+                    <input type="email" class="form-control" id="telefon" Name="telefon" placeholder="Telefon" >
                 </div>
 
                 <div class="form-group">
@@ -42,6 +57,9 @@
             frmvalidator.addValidation("Vorname","maxlen=20",	"Max length for FirstName is 20");
             frmvalidator.addValidation("Vorname","alpha","Alphabetic chars only");
 
+            frmvalidator.addValidation("telefon","maxlen=50");
+            frmvalidator.addValidation("telefon","numeric");
+
             frmvalidator.addValidation("Nachname","req","Nachnamen fehlt");
             frmvalidator.addValidation("Nachname","maxlen=20","Max length is 20");
 
@@ -57,12 +75,7 @@
             //]]></script>
         </div>
             <div class="row">
-            <div class="col-lg-2 col-lg-offset-1 text-center">
-                <a href="mailto:{{ site.email }}">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>{{ site.email }}</p>
-                </a>
-            </div>
+
 
 
             <div class="col-lg-2 col-lg-offset-2 text-center">
