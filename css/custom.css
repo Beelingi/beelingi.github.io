@@ -1,3 +1,12 @@
+
+a {
+    color: #000000
+    }
+
+.bg-primary a {
+    color: #ffffff;
+    }
 .text-center {
     text-align: center;
     }
+
