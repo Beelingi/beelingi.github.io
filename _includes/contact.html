@@ -4,7 +4,7 @@
             <div class="col-lg-2 col-lg-offset-1 text-center">
                 <a href="mailto:{{ site.email }}">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>{{ site.email }}</p>
+                 
                 </a>
                 <p>Beelingi.me - Sprache, Spaß und me</p>
                 <p>Sprachcamps für Schüler</p>
@@ -12,64 +12,8 @@
                 <p>22587 Hamburg</p>
                 <p>t.+49 (0)40 55009913 </p>
             </div>
-    <div class="col-sm-12">
-            <form action="https://getsimpleform.com/messages?form_api_token=f3b5d7ad6276d0577ba7e8b5bb2211d1" Name="myform"  method="post">
-                <input type='hidden' name='redirect_to' value='http://beelingi.me' />
-                <div class="form-group">
+    
 
-                    <label for="InputVorName">Vorname</label>
-                    <input type="text" class="form-control" Name="Vorname" id="InputVorName" placeholder="Vorname" >
-                    </div>
-                <div class="form-group">
-                    <label for="InputNachName">Nachname</label>
-                    <input type="text" class="form-control" Name="Nachname" id="InputNachName" placeholder="Nachname" >
-                </div>
-
-                <div class="form-group">
-                    <label for="InputEmail1">Telefon</label>
-                    <input type="email" class="form-control" id="telefon" Name="telefon" placeholder="Telefon" >
-                </div>
-
-                <div class="form-group">
-                    <label for="InputEmail1">eMail</label>
-                    <input type="email" class="form-control" id="InputEmail1" Name="Email" placeholder="eMail" >
-                 </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="wiederholen" Name="wiederholen" placeholder="wiederholen" >
-                </div>
-                <div class="form-group">
-                    <label for="message">Nachricht</label>
-                    <textarea class="form-control" id="message" Name="message" placeholder="Nachricht" rows='8' ></textarea>
-                </div>
-
-                <button type="submit" value='Submit' class="btn btn-default">Versenden</button>
-
-
-            </form>
-    </div>
-            <script language="JavaScript" type="text/javascript"
-            xml:space="preserve">//<![CDATA[
-            //You should create the validator only after the definition of the HTML form
-            var frmvalidator  = new Validator("myform");
-
-            frmvalidator.EnableMsgsTogether();
-            frmvalidator.addValidation("Vorname","req","Vornamen fehlt");
-            frmvalidator.addValidation("Vorname","maxlen=20",	"Max length for FirstName is 20");
-            frmvalidator.addValidation("Vorname","alpha","Alphabetic chars only");
-
-            frmvalidator.addValidation("Nachname","req","Nachnamen fehlt");
-            frmvalidator.addValidation("Nachname","maxlen=20","Max length is 20");
-
-            frmvalidator.addValidation("Email","maxlen=50");
-            frmvalidator.addValidation("Email","req");
-            frmvalidator.addValidation("Email","email");
-            frmvalidator.addValidation("Email","req", "eMail-Adresse wiederholen");
-            frmvalidator.addValidation("wiederholen","eqelmnt=Email","Die beiden eMail-Adressen sind unterschiedlich");
-
-            frmvalidator.addValidation("message","req","Nachricht nicht vergessen :)");
-
-
-            //]]></script>
         </div>
             <div class="row">
 
