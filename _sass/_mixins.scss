@@ -55,12 +55,18 @@
 	}
 }
 
-@mixin sans-serif-font()
-{
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
 
 @mixin serif-font()
 {
-	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-}
+//	font-family: 'Source Sans Pro','Helvetica Neue', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	}
+
+@mixin sans-serif-font()
+{
+//	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+//	font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', serif;
+
+
+	}

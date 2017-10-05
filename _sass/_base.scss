@@ -38,8 +38,8 @@ h6 {
 
 
 body, p {
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 19px;
+    line-height: 1.8;
     margin-bottom: 20px;
 }
 
@@ -332,6 +332,10 @@ header {
 }
 
 // Contact
+
+#contact {
+    text-align: center;
+    }
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
@@ -444,27 +448,5 @@ body {
     }
 .bs-callout-info h4 {
     color: #1b809e;
-    }
-
-.thumbnail {
-    padding: 0;
-    border-radius: 0;
-    }
-
-.intro h2 a {
-    color: yellow;
-    }
-
-.white {
-    color: white;
-    }
-.intro.small {
-     }
-
-.reisetermine a {
-    color: whitesmoke;
-    }
-.reisetermine {
-    border-left: 1px solid whitesmoke;
     }
 

@@ -4,7 +4,7 @@ body {
   width: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Raleway', sans-serif; }
 
 hr {
   border: 3px solid #0096DB;
@@ -27,11 +27,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Roboto', serif; }
 
 body, p {
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 19px;
+  line-height: 1.8;
   margin-bottom: 20px; }
 
 .bg-primary {
@@ -65,13 +65,13 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.5);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
     color: #0096DB;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Roboto', serif;
     font-weight: 700;
     text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
@@ -208,7 +208,7 @@ header {
       transform: translateY(-50%); }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-family: 'Roboto', serif;
         padding: 0 15px; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         text-transform: uppercase;
@@ -275,7 +275,7 @@ header {
     background-color: white; }
 
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
@@ -283,6 +283,9 @@ header {
 
 .btn-xl {
   padding: 15px 30px; }
+
+#contact {
+  text-align: center; }
 
 #contact .fa {
   color: #222;
@@ -372,6 +375,80 @@ body {
 .bs-callout-info h4 {
   color: #1b809e; }
 
+/* monochromatic share icons */
+p.social a {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 1.5em;
+  line-height: 2em;
+  font-size: 1.2em;
+  vertical-align: bottom;
+  text-align: center;
+  border: solid 1px #ccc;
+  color: #ccc;
+  transition: all 0.2s ease-out; }
+
+p.social a:focus {
+  color: #ccc;
+  border-color: #ccc; }
+
+p.social a:hover {
+  color: darkblue;
+  border-color: darkblue;
+  text-decoration: none; }
+
+p.social a i {
+  vertical-align: middle; }
+
+p.social a i:before {
+  line-height: 3em; }
+
+/* coloured share icons */
+p.social-colour a {
+  color: #fff; }
+
+p.social-colour a:hover, p.social-colour a:focus {
+  color: #fff; }
+
+p.social-colour a.facebook, p.social-colour a.facebook:hover, p.social-colour a.facebook:focus {
+  background-color: #4460ae;
+  border-color: #4460ae; }
+
+p.social-colour a.gplus, p.social-colour a.gplus:hover, p.social-colour a.gplus:focus {
+  background-color: #c21f25;
+  border-color: #c21f25; }
+
+p.social-colour a.twitter, p.social-colour a.twitter:hover, p.social-colour a.twitter:focus {
+  background-color: #3cf;
+  border-color: #3cf; }
+
+p.social-colour a.instagram, p.social-colour a.instagram:hover, p.social-colour a.instagram:focus {
+  background-color: #cd4378;
+  border-color: #cd4378; }
+
+p.social-colour a.buffer, p.social-colour a.buffer:hover, p.social-colour a.buffer:focus {
+  background-color: #000;
+  border-color: #000; }
+
+p.social-colour a.pocket, p.social-colour a.pocket:hover, p.social-colour a.pocket:focus {
+  background-color: #f04056;
+  border-color: #f04056; }
+
+p.social-colour a.linkedin, p.social-colour a.linkedin:hover, p.social-colour a.linkedin:focus {
+  background-color: #0373b4;
+  border-color: #0373b4; }
+
+p.social-colour a.email, p.social-colour a.email:hover, p.social-colour a.email:focus {
+  background-color: #4a7f45;
+  border-color: #4a7f45; }
+
+.black {
+  color: #ffffff;
+  background-color: #000000; }
+
 .thumbnail {
   padding: 0;
   border-radius: 0; }
@@ -387,3 +464,39 @@ body {
 
 .reisetermine {
   border-left: 1px solid whitesmoke; }
+
+.boxes p {
+  font-size: 16px;
+  line-height: 1.8; }
+
+.contact_address {
+  margin-left: 30px;
+  overflow: hidden; }
+
+@media only screen and (max-width: 768px) {
+  .contact_address {
+    height: auto; } }
+.single-address {
+  margin-bottom: 40px; }
+
+.single-address i {
+  background: #2a80b9 none repeat scroll 0 0;
+  border-radius: 30px;
+  color: #fff;
+  float: left;
+  font-size: 22px;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 20px;
+  text-align: center;
+  width: 60px; }
+
+.single-address h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-transform: uppercase; }
+
+.single-address p {
+  margin-bottom: 0; }
