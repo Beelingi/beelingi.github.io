@@ -333,9 +333,7 @@ header {
 
 // Contact
 
-#contact {
-    text-align: center;
-    }
+
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
@@ -449,4 +447,9 @@ body {
 .bs-callout-info h4 {
     color: #1b809e;
     }
+#contact {
+    text-align: center;
+    background-color: $theme-primary;
+    }
 
+#impressum a {color: #ffffff}

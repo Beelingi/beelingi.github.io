@@ -1,12 +1,16 @@
 <section id="unterricht">
     <div id="entry" class="main entry-header has-background"
          style="background-image: url(../img/unterricht/Unterricht_Schlossturm.jpg);">
-        <h1 class="entry-title">Lernen macht Spaß</h1>
+        <span class="entry-title">
+            {% capture unterricht-titel %}{% include Unterricht-Titel.md %}{% endcapture %}
+            {{ unterricht-titel | markdownify }}
+        </span>
         <hr class="short">
 				<span class="meta">
-			We learn amazing things
-		</span>
+             {% capture unterricht-titel-subline %}{% include Unterricht-Titel-Subline.md %}{% endcapture %}
+            {{ unterricht-titel-subline | markdownify }}
 
+		</span>
         <span class="overlay"></span>
 
     </div>
@@ -16,22 +20,9 @@
         <div class="row">
             <div class="col-md-12">
 
-                <h2>
-                    Unterricht: kleinste Gruppen – 40 Stunden – individualisiert – intensiv
-                </h2>
+                    {% capture unterricht %}{% include Unterricht.md %}{% endcapture %}
+                    {{ unterricht | markdownify }}
 
-                <p>Der Unterricht folgt dem Motto: Lernen muss Spaß machen, dann
-                    kommt der Erfolg von ganz allein. Deshalb wollen wir beim Lernen
-                    lachen und Freude haben. Dafür arbeiten wir in den Fremdsprachen mit vielen unterschiedlichen Methoden,
-                    so dass das Lernen bei unseren professionellen, sympathischen Lehrern möglichst nicht als Unterricht empfunden wird.
-                    Dazu gehören z.B. Spiele, Schauspielern, Geschichten hören, Lieblingsthemen vorstellen und Singen. Das freie,
-                    ungenierte Sprechen steht im Vordergrund, dicht gefolgt vom Verstehen und Lesen sowie dem Anwenden von Grammatik.
-                </p>
-                <p>Insgesamt finden täglich sechs Unterrichtsstunden statt. Vormittags fünf Stunden und abends eine Stunde.
-                    Am Vormittag gehen wir sehr konzentriert auf die Verbesserung der individuellen Sprachkompetenz ein, während die
-                    Abendstunde dem Manifestieren und Anwenden in gemütlicher Stimmung gewidmet wird. Hier sprechen wir auf der
-                    Fremdsprache über die Erlebnisse des Tages, lesen Geschichten vor oder spielen Vokabellernspiele. It‘s amazing!
-                </p>
                 </div>
             <div class="col-md-4">
                 <h3>Unsere Ziele</h3>
@@ -45,36 +36,28 @@
                         <a href="#" class="thumbnail">
                             <img src="../img/unterricht/tsingas.jpeg" class="img-responsive" alt="Lernen in vertrauensvoller Umbebung">
                         </a>
-                        <h4>Lernen findet in vertrauensvoller Atmosphäre statt</h4>
 
-                        <p>Wir schaffen eine positive, vertrauensvolle Lernatmosphäre, damit sich jeder ohne Scheu frei entfalten kann.
-                        </p>
+                        {% capture unterricht-block-1 %}{% include Unterricht-Block-1.md %}{% endcapture %}
+                        {{ unterricht-block-1 | markdownify }}
+
+
                     </div>
                     <div class="col-sm-4 boxes">
                         <a href="#" class="thumbnail">
                             <img src="../img/unterricht/individuel.png" class="img-responsive" alt="Lernen in vertrauensvoller Umbebung">
                         </a>
 
-                        <h4>Wir gehen auf jeden Schüler individuell ein</h4>
-
-                        <p>
-                            Wir kümmern uns um jedes Kind und gehen auf die unterschiedlichen Lern-Bedürfnisse ein.
-                            Inhaltlich orientieren wir an dem Hamburger Rahmenlehrplan.
-
-                        </p>
+                        {% capture unterricht-block-2 %}{% include Unterricht-Block-2.md %}{% endcapture %}
+                        {{ unterricht-block-2 | markdownify }}
                     </div>
+
                     <div class="col-sm-4 boxes">
                         <a href="#" class="thumbnail">
                             <img src="../img/unterricht/kleinegruppen.png" class="img-responsive" alt="Lernen in vertrauensvoller Umbebung">
                         </a>
 
-                        <h4>
-                            Wir freuen uns gemeinsam über erreichte Ziele
-                        </h4>
-
-                        <p>Um diese Freundschafts-atmosphäre aufzubauen, führen wir Teambuilding-Aktivitäten
-                            durch und gehen sensibel mit Gruppenbildungen um.
-                        </p>
+                        {% capture unterricht-block-3 %}{% include Unterricht-Block-3.md %}{% endcapture %}
+                        {{ unterricht-block-3 | markdownify }}
                     </div>
                 </div>
                 <div class="row">
@@ -83,11 +66,9 @@
                             <img src="../img/unterricht/luecken.jpg" class="img-responsive" alt="Lernen in vertrauensvoller Umbebung">
                         </a>
 
-                        <h4>Wir arbeiten in Kleinstgruppen und erzielen dadurch große Lern-Erfolge</h4>
+                        {% capture unterricht-block-4 %}{% include Unterricht-Block-4.md %}{% endcapture %}
+                        {{ unterricht-block-4 | markdownify }}
 
-                        <p>In kleinen Gruppen üben wir ungehemmt, punktgenau und sehr konzentriert
-                            mit dem Ziel, dass jeder Schüler alle Themen versteht.
-                        </p>
                     </div>
 
 
@@ -97,26 +78,19 @@
                             <img src="../img/unterricht/Food%20Tasting.png" class="img-responsive" alt="Unterricht soll abwechslungsreich gestaltet sein">
                         </a>
 
-                        <h4>
-                            Der Unterricht ist abwechslungsreich gestaltet
-                        </h4>
+                        {% capture unterricht-block-5 %}{% include Unterricht-Block-5.md %}{% endcapture %}
+                        {{ unterricht-block-5 | markdownify }}
 
-                        <p>
-                            Wir arbeiten mit vielen unterschiedlichen Methoden, um die verschiedenen Sinne
-                            anzusprechen und gehen zielgerichtet auf unterschiedliche Lerntypen ein.
-                        </p>
                     </div>
 
                     <div class="col-sm-4 boxes">
                         <a href="#" class="thumbnail">
                             <img src="../img/unterricht/gemeinsam.png" class="img-responsive" alt="Wir wollen eventuelle Lücken schließen">
                         </a>
-                        <h4>Wir schließen eventuelle Lücken</h4>
 
-                        <p>
-                            In angepasstem Tempo wiederholen wir Themen aus dem Vorjahr,
-                            wenden sie in unterschiedlichen Kontexten an und legen ein Fundament für Neues..
-                        </p>
+                        {% capture unterricht-block-6 %}{% include Unterricht-Block-6.md %}{% endcapture %}
+                        {{ unterricht-block-6 | markdownify }}
+
                     </div>
 
 
