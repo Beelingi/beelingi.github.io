@@ -3,7 +3,7 @@ Impressum
 
 Angaben gemäß § 5 TMG:
 
-### Kontakt:
+### Kontakt
 
 Christine Nettelbeck-Stutterheim
 Manteuffelstraße 21
@@ -13,11 +13,11 @@ Telefon: +49 40 55009913
 
 E-Mail: **Sprachspass** ät **beelingi** punkt **me**
 
-### Aufsichtsbehörde:
+### Gerichtsstand
 
 Hamburg
 
-Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+Wir sind nicht verpflichtet an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 ### Haftung für Inhalte
 
@@ -39,4 +39,5 @@ Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden 
 
 
 
-Quelle: [https://www.e-recht24.de](https://www.e-recht24.de/)
+Quelle: [https://www.e-recht24.de](https:e-recht24.de/)
+

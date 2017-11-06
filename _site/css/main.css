@@ -7,7 +7,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 hr {
-  border: 3px solid #0096DB;
+  border: 3px solid #0095C7;
   max-width: 50px; }
 
 hr.light {
@@ -17,9 +17,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #0096DB; }
+  color: #0095C7; }
   a:hover, a:focus {
-    color: #0073a8; }
+    color: #006f94; }
 
 h1,
 h2,
@@ -36,10 +36,10 @@ body, p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #0096DB; }
+  background-color: #0095C7; }
 
 .bg-dark {
-  background-color: #222;
+  background-color: #2D2C2C;
   color: white; }
 
 .text-faded {
@@ -65,30 +65,30 @@ aside {
 
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.5);
+  border-color: rgba(45, 44, 44, 0.5);
   font-family: 'Roboto', serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
-    color: #0096DB;
+    color: #0095C7;
     font-family: 'Roboto', serif;
     font-weight: 700;
     text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
-      color: #0073a8; }
+      color: #006f94; }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    color: #222; }
+    color: #2D2C2C; }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-      color: #0096DB; }
+      color: #0095C7; }
   .navbar-default .nav > li.active > a,
   .navbar-default .nav > li.active > a:focus {
-    color: #0096DB !important;
+    color: #0095C7 !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:hover,
     .navbar-default .nav > li.active > a:focus:hover {
@@ -109,18 +109,18 @@ aside {
           color: white; }
       .navbar-default.affix {
         background-color: white;
-        border-color: rgba(34, 34, 34, 0.5); }
+        border-color: rgba(45, 44, 44, 0.5); }
         .navbar-default.affix .navbar-header .navbar-brand {
-          color: #0096DB;
+          color: #0095C7;
           font-size: 14px; }
           .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-            color: #0073a8; }
+            color: #006f94; }
         .navbar-default.affix .nav > li > a,
         .navbar-default.affix .nav > li > a:focus {
-          color: #222; }
+          color: #2D2C2C; }
           .navbar-default.affix .nav > li > a:hover,
           .navbar-default.affix .nav > li > a:focus:hover {
-            color: #0096DB; } }
+            color: #0095C7; } }
 
 header {
   position: relative;
@@ -192,7 +192,7 @@ header {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(0, 150, 219, 0.9);
+    background: rgba(0, 149, 199, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -229,21 +229,21 @@ header {
   margin: 0 auto 20px; }
 
 .text-primary {
-  color: #0096DB; }
+  color: #0095C7; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0; }
 
 .btn-default {
-  color: #222;
+  color: #2D2C2C;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle .btn-default {
-    color: #222;
+    color: #2D2C2C;
     background-color: #f2f2f2;
     border-color: #ededed; }
   .btn-default:active, .btn-default.active, .open > .dropdown-toggle .btn-default {
@@ -253,26 +253,26 @@ header {
     border-color: white; }
   .btn-default .badge {
     color: white;
-    background-color: #222; }
+    background-color: #2D2C2C; }
 
 .btn-primary {
   color: white;
-  background-color: #0096DB;
-  border-color: #0096DB;
+  background-color: #0095C7;
+  border-color: #0095C7;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary {
     color: white;
-    background-color: #0085c2;
-    border-color: #007eb7; }
+    background-color: #0082ae;
+    border-color: #007aa3; }
   .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary {
     background-image: none; }
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: #0096DB;
-    border-color: #0096DB; }
+    background-color: #0095C7;
+    border-color: #0095C7; }
   .btn-primary .badge {
-    color: #0096DB;
+    color: #0095C7;
     background-color: white; }
 
 .btn {
@@ -286,18 +286,18 @@ header {
   padding: 15px 30px; }
 
 #contact .fa {
-  color: #222;
+  color: #2D2C2C;
   font-size: 4em; }
 
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222; }
+  background: #2D2C2C; }
 
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222; }
+  background: #2D2C2C; }
 
 img::selection {
   color: white;
@@ -308,7 +308,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #222; }
+  -webkit-tap-highlight-color: #2D2C2C; }
 
 #entry.entry-header {
   padding: 120px 0 !important;
@@ -375,7 +375,7 @@ body {
 
 #contact {
   text-align: center;
-  background-color: #0096DB; }
+  background-color: #0095C7; }
 
 #impressum a {
   color: #ffffff; }
