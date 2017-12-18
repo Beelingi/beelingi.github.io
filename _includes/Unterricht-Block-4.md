@@ -1,3 +1,3 @@
-#### Wir arbeiten in Kleinstgruppen und erzielen dadurch große Lern-Erfolge
+#### Wir arbeiten in Kleinstgruppen und erzielen dadurch große Lernerfolge
 
-In kleinen Gruppen üben wir ungehemmt, punktgenau und sehr konzentriert mit dem Ziel, dass jeder Schüler alle Themen versteht.
+In kleinen Gruppen üben wir ungehemmt, punktgenau und sehr konzentriert mit dem Ziel, dass Jeder alle Themen versteht.

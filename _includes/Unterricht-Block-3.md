@@ -1,3 +1,3 @@
-#### Wir freuen uns gemeinsam über erreichte Ziele
+#### Wir freuen uns über erreichte Ziele
 
-Um diese Freundschafts-atmosphäre aufzubauen, führen wir Teambuilding-Aktivitäten durch und gehen sensibel mit Gruppenbildungen um.
+Um eine Freundschaftsatmosphäre aufzubauen, führen wir Teambuilding-Aktivitäten durch und gehen sensibel mit Gruppenbildungen um.
