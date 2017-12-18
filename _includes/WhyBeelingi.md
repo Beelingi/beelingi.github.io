@@ -7,7 +7,7 @@ Vor sieben Jahren habe ich für meine damals elfjährige Tochter den idealen Spr
 + kleine, homogene Lerngruppen
 + individualisierte Lernarrangements
 + kurze An- und Abfahrtswege
-+ spaßige Ausflüge mit Erlebnischarakter
++ Ausflüge mit Erlebnischarakter
 + Gemeinschaft und Freunde 
 
 Mein Beweggrund die Sprachreisen anzubieten sind Passion, Hobby und Spaß, denn ich arbeite nach wie vor als Lehrerin. Deshalb spüren die Kinder wahrscheinlich, dass die Reisen mit Herz und Engagement durchgeführt werden.

@@ -22,34 +22,13 @@
                                 <h2>Freizeit: We do amazing things</h2>
 
                                 <div class="col-md-6 col-sm-12">
-                                    <p>Nachmittags unternehmen wir unvergessliche Aktionen mit
-                                        Eventcharakter. Dabei erleben wir im Team sowohl Action,
-                                        Mutproben und spannende Herausforderungen als auch romantische
-                                        Grillabende und gemütliche Beachstunden.</p>
-
-
-                                    <p>Selbstverständlich sind alle Sportaktivitäten auch für Einsteiger und
-                                        Nicht-Sportskanonen geeignet und jeder hat schnelle Erfolgserlebnisse.
-                                        So kommen alle Teilnehmer als kleine Helden gestärkt von den Ausflügen
-                                        zurück.</p>
-
-
-                                    <p>In 2016 waren wir zum Beispiel im <strong>Klettergarten</strong>,
-                                        <strong>Surfen</strong>, <strong>Segeln, Motorboot fahren </strong>und <strong>Stand-Up-Paddling</strong>.
-                                        Da die Aktionen allen Kindern super gefallen haben, stehen sie auch für dieses
-                                        Jahr wieder auf dem Plan. Die Aktivitäten haben wir mit dem Ziel ausgesucht,
-                                        teamfördernd und selbstbewusstseinsstärkend zu sein</p>
-
-
+                                    {% capture freizeit1 %}{% include freizeit1.md %}{% endcapture %}
+                                    {{ freizeit1 | markdownify }}
                                 </div>
 
-                                <div class="col-md-6 col-sm-12"><p>Die Freizeitaktivitäten finden auch bei
-                                    Regen statt. Bei sehr extrem schlechtem Wetter wie z.B. Starkwind findet
-                                    ein Alternativprogramm statt.</p>
-
-                                    <p>Die körperlichen Herausforderungen und Erfolgserlebnisse stärken den Geist und
-                                        unterstützen den Spirit für das tägliche Lernen.&nbsp;</p>
-
+                                <div class="col-md-6 col-sm-12"><p>
+                                    {% capture freizeit2 %}{% include freizeit2.md %}{% endcapture %}
+                                    {{ freizeit2 | markdownify }}
 
                                 </div>
 
