@@ -50,7 +50,7 @@
     <![endif]-->
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src="validator.js"></script>
+    <script href='js/validator.js'></script>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -456,9 +456,15 @@
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label for="inputEmail" class="control-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+
 
                     <div class="form-group">
-                        <label for="form_email" class="control-label col-xs-3">Betreff *</label>
+                        <label for="form_email" id="inputEmail" class="control-label col-xs-3">Betreff *</label>
                         <div class="col-sm-9 col-xs-9">
                             <input type="text" class="form-control" name="subject" placeholder="Betreff" required>
                         </div>
