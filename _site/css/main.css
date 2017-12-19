@@ -31,8 +31,8 @@ h6 {
   line-height: 1.3; }
 
 body, p {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 22px;
   margin-bottom: 20px; }
 
 .bg-primary {
@@ -469,10 +469,6 @@ p.social-colour a.email, p.social-colour a.email:hover, p.social-colour a.email:
 
 .reisetermine {
   border-left: 1px solid whitesmoke; }
-
-.boxes p {
-  font-size: 16px;
-  line-height: 1.5; }
 
 .contact_address {
   margin-left: 30px;
