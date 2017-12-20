@@ -33,8 +33,9 @@
 //     }
 // }
 
-// variables.less
-$theme-primary: #0095C7;
+// variables.less #0095C7
+$theme-primary: #ffffff;
+$theme-sub: #0095C7;
 $theme-dark: #2D2C2C;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -86,7 +87,7 @@ p.social-colour a.email, p.social-colour a.email:hover, p.social-colour a.email:
   }
 
 .reisetermine a {
-  color: whitesmoke;
+  color: #000000;
   }
 .reisetermine {
   border-left: 1px solid whitesmoke;

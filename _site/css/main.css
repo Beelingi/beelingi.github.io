@@ -7,7 +7,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 hr {
-  border: 3px solid #0095C7;
+  border: 3px solid #ffffff;
   max-width: 50px; }
 
 hr.light {
@@ -17,9 +17,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #0095C7; }
+  color: #ffffff; }
   a:hover, a:focus {
-    color: #006f94; }
+    color: #e6e6e6; }
 
 h1,
 h2,
@@ -36,7 +36,7 @@ body, p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #0095C7; }
+  background-color: #ffffff; }
 
 .bg-dark {
   background-color: #2D2C2C;
@@ -71,12 +71,12 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
-    color: #0095C7;
+    color: #ffffff;
     font-family: 'Roboto', serif;
     font-weight: 700;
     text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
-      color: #006f94; }
+      color: #e6e6e6; }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
@@ -85,10 +85,10 @@ aside {
     color: #2D2C2C; }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-      color: #0095C7; }
+      color: #ffffff; }
   .navbar-default .nav > li.active > a,
   .navbar-default .nav > li.active > a:focus {
-    color: #0095C7 !important;
+    color: #ffffff !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:hover,
     .navbar-default .nav > li.active > a:focus:hover {
@@ -111,16 +111,16 @@ aside {
         background-color: white;
         border-color: rgba(45, 44, 44, 0.5); }
         .navbar-default.affix .navbar-header .navbar-brand {
-          color: #0095C7;
+          color: #ffffff;
           font-size: 14px; }
           .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-            color: #006f94; }
+            color: #e6e6e6; }
         .navbar-default.affix .nav > li > a,
         .navbar-default.affix .nav > li > a:focus {
           color: #2D2C2C; }
           .navbar-default.affix .nav > li > a:hover,
           .navbar-default.affix .nav > li > a:focus:hover {
-            color: #0095C7; } }
+            color: #ffffff; } }
 
 header {
   position: relative;
@@ -192,7 +192,7 @@ header {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(0, 149, 199, 0.9);
+    background: rgba(255, 255, 255, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -229,7 +229,7 @@ header {
   margin: 0 auto 20px; }
 
 .text-primary {
-  color: #0095C7; }
+  color: #ffffff; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -375,7 +375,7 @@ body {
 
 #contact {
   text-align: center;
-  background-color: #0095C7; }
+  background-color: #ffffff; }
 
 #impressum a {
   color: #ffffff; }
@@ -465,7 +465,7 @@ p.social-colour a.email, p.social-colour a.email:hover, p.social-colour a.email:
   color: white; }
 
 .reisetermine a {
-  color: whitesmoke; }
+  color: #000000; }
 
 .reisetermine {
   border-left: 1px solid whitesmoke; }
