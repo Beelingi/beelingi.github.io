@@ -8,7 +8,11 @@
 
 6.8.  bis  12.8.2018 (7 Tage)
 
-**4. - 10. Klasse**
+**Englisch - 4. - 10. Klasse**
+
+> **Wir bieten jetzt auch Mathe an!**
+> Jetzt neu ab diesem Sommer: Mathe für die 9./10.Klasse als Vorbereitung für den MSA.
+
 Es gelten die Klassenstufen, die zu den Sommerferien beendet werden.
 
 **Preis:  850,00 Euro**
@@ -22,6 +26,4 @@ Alle Preise beinhalten:
 
   ​
 
-[Anfrage/Kontakt](#contact){: .page-scroll }
-
- 
+   [Anfrage/Kontakt](#contact){: .page-scroll }
