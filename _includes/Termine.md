@@ -1,5 +1,11 @@
 ### Termine 2018
 
+**Englisch: 4. - 10. Klasse**
+
+**Mathe: 9./10. Klasse**
+
+
+
 #### Juli Camp
 
 6.7.  bis  12.7.2018 (7 Tage)
@@ -8,10 +14,12 @@
 
 6.8.  bis  12.8.2018 (7 Tage)
 
-**Englisch - 4. - 10. Klasse**
+
 
 > **Wir bieten jetzt auch Mathe an!**
 > Jetzt neu ab diesem Sommer: Mathe für die 9./10.Klasse als Vorbereitung für den MSA.
+
+
 
 Es gelten die Klassenstufen, die zu den Sommerferien beendet werden.
 
