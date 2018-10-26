@@ -1,4 +1,4 @@
-### Termine 2018
+### Termine 2019
 
 **Englisch: 4. - 10. Klasse**
 
@@ -8,7 +8,7 @@
 
 #### August Camp
 
-28.07 bis  4.8.2019 (7 Tage)
+29.07 bis  4.8.2019 (7 Tage)
 
 
 
@@ -23,7 +23,7 @@ Alle Preise beinhalten:
 
 + Übernachtung mit Vollpension
 
-+ täglich attraktive Freizeitaktivitäten wie Klettern, Surfen, Segeln 
++ täglich attraktive Freizeitaktivitäten wie Klettern, Surfen, Segeln
 
 + kleinste Gruppen
 
