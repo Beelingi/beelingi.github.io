@@ -14,7 +14,7 @@
 
 Es gelten die Klassenstufen, die zu den Sommerferien beendet werden.
 
-**Preis:  895,00 Euro**
+**Preis:  965,00 Euro**
 Alle Preise beinhalten:
 
 + 40 Lektionen
