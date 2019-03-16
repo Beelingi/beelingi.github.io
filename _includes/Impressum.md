@@ -6,8 +6,8 @@ Angaben gemäß § 5 TMG:
 ### Kontakt
 
 Christine Nettelbeck-Stutterheim
-Manteuffelstraße 21
-22587 Hamburg 
+Fischers Allee 50
+22763 Hamburg 
 
 Telefon: +49 40 55009913
 
@@ -40,4 +40,3 @@ Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden 
 
 
 Quelle: [https://www.e-recht24.de](https:e-recht24.de/)
-
