@@ -1,6 +1,7 @@
 ### Termine 2019
 
-**Englisch: 4. - 10. Klasse**
+**Englisch: 4. - 10. Klasse**<br>
+<small>Es gelten die Klassenstufen, die zu den Sommerferien beendet werden.</small>
 
 #### Juli Camp
 
@@ -12,10 +13,8 @@
 
 
 
-Es gelten die Klassenstufen, die zu den Sommerferien beendet werden.
 
 
-Alle Preise beinhalten:
 
 + 40 Unterrichtsstunden
 
