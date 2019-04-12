@@ -14,10 +14,10 @@
 
 Es gelten die Klassenstufen, die zu den Sommerferien beendet werden.
 
-**Preis:  965,00 Euro**
+
 Alle Preise beinhalten:
 
-+ 40 Lektionen
++ 40 Unterrichtsstunden
 
 + 7 Tage Kursdauer
 
