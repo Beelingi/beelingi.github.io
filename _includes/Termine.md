@@ -3,16 +3,13 @@
 **Englisch: 4. - 10. Klasse**<br>
 <small>Es gelten die Klassenstufen, die zu den Sommerferien beendet werden.</small>
 
-#### Juli Camp
+#### Juni Camp
 
-28.6 bis 4.7.2019 (7 Tage)
+26.6. bis 2.7.2020 (7 Tage)
 
 #### August Camp
 
-29.07 bis  4.8.2019 (7 Tage)
-
-
-
+27.7. bis 2.8.2020 (7 Tage)
 
 
 
